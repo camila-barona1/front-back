@@ -1,0 +1,78 @@
+<app-main-nav>
+    <h1>Todos los Equipos</h1>
+    
+<hr>
+    <table id="product">
+        <tr>
+            <th (click)="sort('id')">
+                ID&nbsp;<span class="material-icons white">
+                    unfold_more
+                    </span>
+            </th>
+
+            <th (click)="sort('productName')">
+                Nombre&nbsp;<span class="material-icons white">
+                    unfold_more
+                    </span>
+            </th>
+            <th (click)="sort('productDescription')">
+                Descripción&nbsp;<span class="material-icons white">
+                    unfold_more
+                    </span>
+            </th>
+            <th (click)="sort('Category')">
+                Categoria&nbsp;<span class="material-icons white">
+                    unfold_more
+                    </span>
+            </th>
+            <th (click)="sort('units')">
+                Unidades&nbsp;<span class="material-icons white">
+                    unfold_more
+                    </span>
+            </th>
+            <th>
+                
+            </th>
+            <th>
+                
+            </th>
+            
+        </tr>
+
+        <tr *ngFor = "let product of productList | orderBy: key:reverse">
+            <td>
+                {{product.productId}}
+            </td>
+            <td>
+                {{product.productName}}
+            </td>
+            <td>
+                {{product.productDescription}}
+            </td>
+            <td>
+                {{product.productCategory}}
+            </td>
+            <td>
+                {{product.units}}
+            </td>       
+            
+            <td>
+                <span class="material-icons edit" (click)="updateProduct(product)">
+                        border_color
+                    </span>
+            </td>    
+
+            <td>
+                <span class="material-icons delete" (click)="deleteProduct(product.productId)">
+                    delete
+                    </span>
+                
+            </td>    
+
+
+        </tr>
+
+
+    </table>
+    
+    </app-main-nav>
