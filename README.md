@@ -166,13 +166,13 @@ features used for UI display:
 Este projecto evidencia lo siguiente
 - Interfaz del usuario
 - Login
-  ![Img](Imagenes Aplicativo/img3.PNG)
+  ![Img](Imagenes Aplicativo/img3.png)
 - Menu
-![Img](Imagenes Aplicativo/img4.PNG)
+![Img](Imagenes Aplicativo/img4.png)
 - Filtros
-![Img](Imagenes Aplicativo/img5.PNG)
+![Img](Imagenes Aplicativo/img5.png)
 - Base de datos
 ![Img](Imagenes Aplicativo/img1.png)
 - APIs testeadas con Postman para validar cada endpoint
-- ![Img](Imagenes Aplicativo/img2.PNG)
-- ![Img](Imagenes Aplicativo/img6.PNG)
+- ![Img](Imagenes Aplicativo/img2.png)
+- ![Img](Imagenes Aplicativo/img6.png)
