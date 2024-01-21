@@ -166,7 +166,7 @@ features used for UI display:
 Este projecto evidencia lo siguiente
 - Interfaz del usuario
 - Login
-  ![Img](Imagenes Aplicativo/img3.PNG)
+  ![Img] (Imagenes Aplicativo/img3.PNG)
 - Menu
 ![Img](Imagenes Aplicativo/img4.PNG)
 - Filtros
