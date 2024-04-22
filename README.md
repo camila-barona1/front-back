@@ -153,7 +153,7 @@ Stack:
 
 Pasos para la ejecucion de Angular:
 
-      1.npm install, npm run build, npm serve.
+      1.npm install (install node modules), ng serve, npm run build, npm serve.
 
 features used for UI display:
 
